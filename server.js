@@ -1,7 +1,7 @@
 const express = require("express");
 const path = require("path");
 const app = express();
-const port = process.env.PORT || 3001; // 포트 설정, 기본값은 3001
+const port = process.env.PORT || 3000; // 포트 설정, 기본값은 3001
 const mysql = require("mysql2"); // MariaDB 드라이버
 
 // MariaDB 연결 설정
