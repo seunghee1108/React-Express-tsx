@@ -2,8 +2,6 @@ import React, {useState} from "react";
 import "./App.css"
 import {BrowserRouter as Router, Routes, Route, Link, Navigate} from "react-router-dom";
 
-
-	
 const Join:React.FC = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -62,8 +60,6 @@ const Join:React.FC = () => {
     </div>
   )
 }
-
-
 
 
 const Login: React.FC = () => {
